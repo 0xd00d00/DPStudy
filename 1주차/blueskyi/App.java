@@ -27,9 +27,6 @@ class Edit {
 		this.validator = validator;
 	}
 	public String getData()  throws IOException {
-		/*
-		 * 1. 메소드를 추가해, 해당 메소드를 override해 변경해보라.
-		*/
 		data = "";
 		
 		while (true) {
