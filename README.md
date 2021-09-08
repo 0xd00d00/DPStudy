@@ -22,4 +22,9 @@ If you want to look the detail of book, click the link below.<br>
 - 참석자: blueski, 지홍, 준규
 - 발표자료: [구글슬라이드](https://docs.google.com/presentation/d/1uno2OenhBLaPdJMpbKBzfB16qqSrW5UmbL9ubLFFIRA/edit?usp=sharing)
 
+#### 2주차 Observer pattern
+- 발표자: 지홍
+- 참석자: blueski, 지홍
+- 발표자료: [PPT]
+
 
