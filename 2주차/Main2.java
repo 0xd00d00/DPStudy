@@ -7,14 +7,14 @@ public class Main2 {
 
 	public static void main(String[] args) {
 
-		//Subject °´Ã¼ ¼±¾ğ
-		Clock clock = new Clock("7");//±¸µ¶ÀÚ list »ı¼º
+		//Subject ê°ì²´ ì„ ì–¸
+		Clock clock = new Clock("7");//êµ¬ë…ì list ìƒì„±
 		
-	    Doctor doctor = new Doctor(clock);//±¸µ¶ÀÚ °´Ã¼·Î Ãß°¡
+	    Doctor doctor = new Doctor(clock);//êµ¬ë…ì ê°ì²´ë¡œ ì¶”ê°€
 	    Dev dev 	= new Dev(clock);
 	    Nerd nerd 	= new Nerd(clock);
 
-	    System.out.println("7½Ã");
+	    System.out.println("7ì‹œ");
 	    System.out.println(doctor.state);
 	    System.out.println(dev.state);
 	    System.out.println(nerd.state);
@@ -22,9 +22,9 @@ public class Main2 {
 	    
 	    
 		/*
-		 * ½Ã°£ÀÌ 9½Ã·Î º¯°æµÇ¸é?
+		 * ì‹œê°„ì´ 9ì‹œë¡œ ë³€ê²½ë˜ë©´?
 		 */
-	    System.out.println("9½Ã·Î º¯°æ");
+	    System.out.println("9ì‹œë¡œ ë³€ê²½");
 	    clock.setTime("9");
 	    System.out.println(doctor.state);
 	    System.out.println(dev.state);
@@ -32,45 +32,45 @@ public class Main2 {
 	    System.out.println();
 	    
 	    /*
-	     * ÀÇ»ç ±¸µ¶ÀÚ »èÁ¦½Ã?
+	     * ì˜ì‚¬ êµ¬ë…ì ì‚­ì œì‹œ?
 	     */
-	    System.out.println("ÀÇ»ç ±¸µ¶ÀÚ »èÁ¦ ½Ã");
-	    doctor.delName(); //±¸µ¶ÀÚ »èÁ¦
+	    System.out.println("ì˜ì‚¬ êµ¬ë…ì ì‚­ì œ ì‹œ");
+	    doctor.delName(); //êµ¬ë…ì ì‚­ì œ
 	    
 	    System.out.println(doctor.state);
 	    System.out.println(dev.state);
 	    System.out.println(nerd.state);
 		
 	    /*
-	    subject = º¯ÇÏ´Â ´ë»óÀÇ ÀÎÅÍÆäÀÌ½º
-	    object = ÁÖÃ¼ÀÇ º¯È­¸¦ ¾Ë¸± º¯È­ °¨½ÃÀÚ ÀÎÅÍÆäÀÌ½º
-	    concreteSubject = ½ÇÁ¦ º¯ÇÏ´Â ´ë»ó, ±¸µ¶ÀÚ º¯°æ, ¿ÉÀú¹ö¿¡°Ô Åëº¸
-	    concreteObject = ±¸µ¶ÀÚ, ¼­ºêÁ§Æ®·ÎºÎÅÍ Àü´Ş¹Ş¾Æ ±¸µ¶ÀÚ °»½Å, ¾Ë¸² Ã³¸®
+	    subject = ë³€í•˜ëŠ” ëŒ€ìƒì˜ ì¸í„°í˜ì´ìŠ¤
+	    observer = ì£¼ì²´ì˜ ë³€í™”ë¥¼ ì•Œë¦´ ë³€í™” ê°ì‹œì ì¸í„°í˜ì´ìŠ¤
+	    concreteSubject = ì‹¤ì œ ë³€í•˜ëŠ” ëŒ€ìƒ, êµ¬ë…ì ë³€ê²½, ì˜µì €ë²„ì—ê²Œ í†µë³´
+	    concreteObserver = êµ¬ë…ì, ì„œë¸Œì íŠ¸ë¡œë¶€í„° ì „ë‹¬ë°›ì•„ êµ¬ë…ì ê°±ì‹ , ì•Œë¦¼ ì²˜ë¦¬
 	    */
 	}
 
 }
 
 /*
- * ¿ÉÀú¹ö ÆĞÅÏ : ÁÖÃ¼ÀÇ »óÅÂ°¡ º¯°æµÉ ¶§¸¶´Ù 
- * ¿¬°áµÈ °´Ã¼¿¡°Ô ¾Ë¸²ÀÌ °¡¾ß ÇÑ´Ù.(ÀÌº¥Æ® ¹ß»ı ½Ã Áï°¢ÀûÀ¸·Î Ã³¸®!) 
+ * ì˜µì €ë²„ íŒ¨í„´ : ì£¼ì²´ì˜ ìƒíƒœê°€ ë³€ê²½ë  ë•Œë§ˆë‹¤ 
+ * ì—°ê²°ëœ ê°ì²´ì—ê²Œ ì•Œë¦¼ì´ ê°€ì•¼ í•œë‹¤.(ì´ë²¤íŠ¸ ë°œìƒ ì‹œ ì¦‰ê°ì ìœ¼ë¡œ ì²˜ë¦¬!) 
 
- * Subject(Publisher) 	- º¯È­ÇÏ´Â °Í. 	°¨½Ã´çÇÒ ´ë»ó
- * Observer 			- º¯È­¸¦ °¨½ÃÇÏ´Â °Í. °¨½ÃÇÏ´Â ÁÖÃ¼ (°¨½ÃÇÒ ´ë»ó¿¡ ´Ş¾Æ³õ´Â´Ù. Áï SubjectÀÇ º¯È­¸¦ °¨½Ã¸¦ ÇÏ°Ú´Ù´Â °Í.)
+ * Subject(Publisher) 	- ë³€í™”í•˜ëŠ” ê²ƒ. 	ê°ì‹œë‹¹í•  ëŒ€ìƒ
+ * Observer 			- ë³€í™”ë¥¼ ê°ì‹œí•˜ëŠ” ê²ƒ. ê°ì‹œí•˜ëŠ” ì£¼ì²´ (ê°ì‹œí•  ëŒ€ìƒì— ë‹¬ì•„ë†“ëŠ”ë‹¤. ì¦‰ Subjectì˜ ë³€í™”ë¥¼ ê°ì‹œë¥¼ í•˜ê² ë‹¤ëŠ” ê²ƒ.)
  */
-interface Subject{//º¯È­ ´ë»ó, º¯È­ Ã³¸®ÇÒ ¸Ş¼­µå¸¦ ¸¸µé¾î³õ´Â´Ù
-	void registerObserver(Observer observer); 	//¿ÉÀú¹ö »ı¼º ±â´É
-    void unregisterObserver(Observer observer); //¿ÉÀú¹ö »èÁ¦ ±â´É
-    void notifyObservers(); 					//Åëº¸ ±â´É
+interface Subject{//ë³€í™” ëŒ€ìƒ, ë³€í™” ì²˜ë¦¬í•  ë©”ì„œë“œë¥¼ ë§Œë“¤ì–´ë†“ëŠ”ë‹¤
+	void registerObserver(Observer observer); 	//ì˜µì €ë²„ ìƒì„± ê¸°ëŠ¥
+    void unregisterObserver(Observer observer); //ì˜µì €ë²„ ì‚­ì œ ê¸°ëŠ¥
+    void notifyObservers(); 					//í†µë³´ ê¸°ëŠ¥
 }
 
-interface Observer{//°¨½ÃÇÏ´Â °Í
-	void delName(); //±¸µ¶ÀÚ »èÁ¦
-	void update(); //»óÅÂ º¯È­ ½Ã 
+interface Observer{//ê°ì‹œí•˜ëŠ” ê²ƒ
+	void delName(); //êµ¬ë…ì ì‚­ì œ
+	void update(); //ìƒíƒœ ë³€í™” ì‹œ 
 }
 
-class Clock implements Subject{ //º¯È­ ´ë»óÀº ½Ã°£ÀÌ´Ù. ½Ã°£ÀÌ SubjectÀÇ ±¸ÇöºÎ°¡ µÈ´Ù
-		public ArrayList<Observer> observerCollection; //Åëº¸´ë»óÀ» ´ãÀ» ¸®½ºÆ®¸¦ ¸¸µê
+class Clock implements Subject{ //ë³€í™” ëŒ€ìƒì€ ì‹œê°„ì´ë‹¤. ì‹œê°„ì´ Subjectì˜ êµ¬í˜„ë¶€ê°€ ëœë‹¤
+		public ArrayList<Observer> observerCollection; //í†µë³´ëŒ€ìƒì„ ë‹´ì„ ë¦¬ìŠ¤íŠ¸ë¥¼ ë§Œë“¦
 	    public String time;
 	
 	    public Clock(String time) {
@@ -89,16 +89,16 @@ class Clock implements Subject{ //º¯È­ ´ë»óÀº ½Ã°£ÀÌ´Ù. ½Ã°£ÀÌ SubjectÀÇ ±¸ÇöºÎ°
 	    }
 	
 	    @Override
-	    public void notifyObservers() {//¹İº¹¹®À¸·Î ¸®½ºÆ® ¾È¿¡ ÀÖ´Â ¸ğµç ´ë»óÀÚ¿¡°Ô Åëº¸ÇÑ´Ù.
+	    public void notifyObservers() {//ë°˜ë³µë¬¸ìœ¼ë¡œ ë¦¬ìŠ¤íŠ¸ ì•ˆì— ìˆëŠ” ëª¨ë“  ëŒ€ìƒìì—ê²Œ í†µë³´í•œë‹¤.
 	        for(Observer observer:observerCollection){
 	            observer.update();
-	            System.out.println("º¯È­ °¨Áö : ±¸µ¶ÀÚ¿¡°Ô Åëº¸");
+	            System.out.println("ë³€í™” ê°ì§€ : êµ¬ë…ìì—ê²Œ í†µë³´");
 	        }
 	    }
 	
 	    public void setTime(String time) {
 	        this.time = time;
-	        notifyObservers();//½Ã°£ÀÌ ¹Ù²ğ¶§ ¸¶´Ù Åëº¸
+	        notifyObservers();//ì‹œê°„ì´ ë°”ë€”ë•Œ ë§ˆë‹¤ í†µë³´
 
 	    }
 		
@@ -109,7 +109,7 @@ class Doctor implements Observer{
     public String state;
 
     public Doctor(Clock clock) {
-    	this.state ="º¸Åë";
+    	this.state ="ë³´í†µ";
         this.clock = clock;
         this.clock.registerObserver(this);
     }
@@ -119,7 +119,7 @@ class Doctor implements Observer{
         //action!
         {
             if (clock.time.equals("9")) {
-                state = "¾ß±Ù";
+                state = "ì•¼ê·¼";
             }
         }
     }
@@ -139,7 +139,7 @@ class Dev implements Observer{
     public String state;
 
     public Dev(Clock clock) {
-    	this.state ="º¸Åë";
+    	this.state ="ë³´í†µ";
         this.clock = clock;
         this.clock.registerObserver(this);
     }
@@ -157,7 +157,7 @@ class Dev implements Observer{
         //action!
         {
             if (clock.time.equals("9")) {
-                state = "Åğ±Ù";
+                state = "í‡´ê·¼";
             }
         }
     }
@@ -170,7 +170,7 @@ class Dev implements Observer{
 	    public String state;
 	  
 	    public Nerd(Clock clock) {
-	    	this.state ="º¸Åë";
+	    	this.state ="ë³´í†µ";
 	        this.clock = clock;
 	        this.clock.registerObserver(this);
 	    }
@@ -187,7 +187,7 @@ class Dev implements Observer{
 	        //action!
 	        {
 	            if (clock.time.equals("9")) {
-	                state = "µå¶ó¸¶";
+	                state = "ë“œë¼ë§ˆ";
 	            }
 	        }
 	    }
