@@ -24,7 +24,7 @@ If you want to look the detail of book, click the link below.<br>
 
 #### 2주차 Observer pattern
 - 발표자: 지홍
-- 참석자: blueski, 지홍
+- 참석자: blueski, 널두
 - 발표자료: [PPT]
 
 
