@@ -2,10 +2,14 @@
 #include <vector>
 using namespace std;
 
+// 이름 바꾸기 -> compile 전에
 
 struct IGraph
 {
-    virtual void update(int) = 0;
+		// 순수가상함수 -> abstract 무조건 구현해야한다.
+		//  java -> interface
+		// 가상함수 -> abstract
+	  virtual void update(int) = 0;
 
     virtual ~IGraph() {}
 };
