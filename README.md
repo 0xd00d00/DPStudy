@@ -20,11 +20,9 @@ If you want to look the detail of book, click the link below.<br>
 #### 1주차 Upcasting & Strategy pattern
 - 발표자: 널두
 - 참석자: blueski, 지홍, 준규
-- 발표자료: [구글슬라이드](https://docs.google.com/presentation/d/1uno2OenhBLaPdJMpbKBzfB16qqSrW5UmbL9ubLFFIRA/edit?usp=sharing)
+- 발표자료: [구글슬라이드](https://docs.google.com/presentation/d/1uno2OenhBLaPdJMpbKBzfB16qqSrW5UmbL9ubLFFIRA/edit?usp=sharing
 
 #### 2주차 Observer pattern
 - 발표자: 지홍
 - 참석자: blueski, 널두
-- 발표자료: [PPT]
-
-
+- 발표자료: [PPT](https://github.com/0xd00d00/DPStudy/blob/master/2%EC%A3%BC%EC%B0%A8/Observer_pt.pptx), [구글스프레드](https://docs.google.com/spreadsheets/d/1OVOHPGhRUAkWzFpqCY_tELv2zk9qd_r-SjyQKi3BBT4/edit?usp=sharing)
