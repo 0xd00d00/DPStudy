@@ -16,6 +16,16 @@ Head first for Design pattern
 If you want to look the detail of book, click the link below.<br>
 [link](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=582754)
 
+### 관련 스크립트
+makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수 있습니다.
+\*\*주차 폴더:  n주차 폴더를 의미하며, 내용에는 참여자의 폴더들이 들어있습니다.
+
+### 사용방법
+```sh
+> cd ~/DPStudy
+> ./makeRepo.sh
+```
+
 ### 주차 내용🎶
 #### 1주차 Upcasting & Strategy pattern
 - 발표자: 널두
