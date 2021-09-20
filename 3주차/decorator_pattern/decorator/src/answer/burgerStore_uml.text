@@ -1,0 +1,14 @@
+@startuml
+class Burger
+class Whopper
+class MonsterX
+class ToppingDecorator
+class Cheeze
+class Bacon
+Burger <|-- Whopper
+Burger <|-- MonsterX
+Burger <|-- ToppingDecorator
+ToppingDecorator *-- Burger
+ToppingDecorator <|-- Cheeze
+ToppingDecorator <|-- Bacon
+@enduml

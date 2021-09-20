@@ -1,0 +1,12 @@
+@startuml
+class Component
+class ConcreateComponent
+class Decorator
+class ConcreteDecoratorA
+class ConcreteDecoratorB
+Component <|-- ConcreateComponent
+Component <|-- Decorator
+Decorator *-- Component
+Decorator <|-- ConcreteDecoratorA
+Decorator <|-- ConcreteDecoratorB
+@enduml
