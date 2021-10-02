@@ -1,0 +1,26 @@
+### 문제
+각 회사의 ID카드 생성을 적절한 팩토리 패턴으로 구현하세요.
+
+### 조건
+회사는 삼성, 애플 2가지 회사가 있습니다.
+ID 카드는 회사명과 ID로 주어집니다.
+
+삼성의 ID는 s로 시작합니다.
+애플의 ID는 a로 시작합니다.
+
+예시입니다.
+
+void creatIdCard(String company, int Id) {
+
+	// 러프하게 구현된 것입니다.
+
+	company = samsung일 경우 s로 들어옵니다
+						apple 일 경우 a로 들어옵니다.
+
+	// 예시, samsung 에다니는 홍길동의 Id는 123이다.
+  // company s , Id 123
+	// company : s + Id: 123;
+
+	return company + Id;
+}
+
