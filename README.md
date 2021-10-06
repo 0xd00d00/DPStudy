@@ -47,3 +47,8 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 널두, 준규
 - 참석자: bluesky
 - 발표자료 : [Factory 구글슬라이드](https://docs.google.com/presentation/d/1xaRuw_XbQODTLHY7qqs8zacpboC9EHJkBqnnBVwP_Go/edit#slide=id.gf52b21eef4_0_32), [준규님 블로그](https://j-aykay.tistory.com/entry/%ED%8C%A9%ED%86%A0%EB%A6%AC-%ED%8C%A8%ED%84%B4)
+
+#### 5주차 Singleton pattern
+- 발표자: 지홍
+- 참석자: 널두, 준규
+- 발표자료 : [Notion](https://www.notion.so/5-Singleton-Pattern-10-9-23a78cc20d794722b8a91ca352696c4b)
