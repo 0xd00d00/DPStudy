@@ -1,14 +1,14 @@
 package Printer;
 
 public class Printer {
-	//¿ÜºÎ¿¡ Á¦°øÇÒ ÀÚ±â ÀÚ½ÅÀÇ ÀÎ½ºÅÏ½º
+	//ì™¸ë¶€ì— ì œê³µí•  ìê¸° ìì‹ ì˜ ì¸ìŠ¤í„´ìŠ¤
 	private static Printer printer = null;
 	private Printer() {}
-	//ÀÚ±â ÀÚ½ÅÀÇ ÀÎ½ºÅÏ½º¸¦ ¿ÜºÎ¿¡ Á¦°ø
+	//ìê¸° ìì‹ ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì™¸ë¶€ì— ì œê³µ
 	
 	public static Printer getPrinter() {
 		if(printer==null) {
-			//printer ÀÎ½ºÅÏ½º »ı¼º
+			//printer ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 			printer = new Printer();
 		}
 		return printer;
