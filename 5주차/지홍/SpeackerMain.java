@@ -8,7 +8,7 @@ public class Main {
 		
 		System.out.println(speaker1.getVolume());
 		System.out.println(speaker2.getVolume());
-		//µğ¹ö±× ½Ã speaker1, speaker2 °´Ã¼ÀÇ ÁÖ¼Ò°ªÀÌ ¶È°°Àº °ÍÀ» ¾Ë¼ö ÀÖ´Ù.
+		//ë””ë²„ê·¸ ì‹œ speaker1, speaker2 ê°ì²´ì˜ ì£¼ì†Œê°’ì´ ë˜‘ê°™ì€ ê²ƒì„ ì•Œìˆ˜ ìˆë‹¤.
 		
 		speaker1.setVolume(11);
 		System.out.println(speaker1.getVolume());
