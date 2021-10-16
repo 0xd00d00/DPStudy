@@ -52,3 +52,9 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 지홍
 - 참석자: 널두, 준규
 - 발표자료 : [Notion](https://www.notion.so/5-Singleton-Pattern-10-9-23a78cc20d794722b8a91ca352696c4b)
+
+
+#### 5주차 Command pattern
+- 발표자: 동석
+- 참석자: 널두, 준규
+- 발표자료 : [bluesky님 블로그 command pattern](https://velog.io/@blueskyi/%ED%95%9C%EC%A4%84%EC%BD%94%EB%94%A9-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-211016)
