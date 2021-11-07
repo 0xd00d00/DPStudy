@@ -63,3 +63,8 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 준규
 - 참석자: 동석, 널두
 - 발표자료 : [JayKay 블로그](https://j-aykay.tistory.com/entry/%EC%96%B4%EB%8C%91%ED%84%B0-%ED%8C%A8%ED%84%B4%EA%B3%BC-%ED%8D%BC%EC%82%AC%EB%93%9C-%ED%8C%A8%ED%84%B4)
+
+#### 8주차 Template method pattern
+- 발표자: 널두
+- 참석자: 동석
+- 발표자료 : [구글슬라이드 for Template Pattern](https://docs.google.com/presentation/d/13mrn2Dbk5yR1f5cv_IwMqw0drZlcr9qFetESaNYC7uA/edit#slide=id.g1005d14fadf_0_106)
