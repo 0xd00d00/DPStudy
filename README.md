@@ -68,3 +68,8 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 널두
 - 참석자: 동석
 - 발표자료 : [구글슬라이드 for Template Pattern](https://docs.google.com/presentation/d/13mrn2Dbk5yR1f5cv_IwMqw0drZlcr9qFetESaNYC7uA/edit#slide=id.g1005d14fadf_0_106)
+
+#### 9주차 Iterator pattern & Composite pattern
+- 발표자: 지홍
+- 참석자: 준규,널두,동석
+- 발표자료 : [지홍 Notion](https://www.notion.so/DesignPattern-47d58e7d773341d597756fba0d9e087a)
