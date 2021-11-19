@@ -73,3 +73,8 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 지홍
 - 참석자: 준규,널두,동석
 - 발표자료 : [지홍 Notion](https://www.notion.so/DesignPattern-47d58e7d773341d597756fba0d9e087a)
+
+#### 10주차 State pattern
+- 발표자: 동석
+- 참석자: 널두, 지홍
+- 발표자료 : [bluesky님 블로그 state pattern](https://velog.io/@blueskyi/State-pattern-%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8-%ED%8C%A8%ED%84%B4)
