@@ -85,3 +85,8 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 널두
 - 참석자: 동석, 준규
 - 발표자료 : [널두 블로그 Compound Pattern](https://0xd00d00.github.io/2021/12/05/compound_pattern.html)
+
+#### 13주차 Better Living with Patterns
+- 발표자: 동석
+- 참석자: 널두, 준규
+- 발표자료 : [bluesky님 블로그 패턴과 함께하는 행복한 삶](https://velog.io/@blueskyi/13%EC%9E%A5-%ED%8C%A8%ED%84%B4%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94-%ED%96%89%EB%B3%B5%ED%95%9C-%EC%82%B6)
