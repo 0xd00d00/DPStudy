@@ -90,3 +90,8 @@ makeRepo.sh 라는 스크립트를 이용하면, \*\*주차 폴더를 만들 수
 - 발표자: 동석
 - 참석자: 널두, 준규
 - 발표자료 : [bluesky님 블로그 패턴과 함께하는 행복한 삶](https://velog.io/@blueskyi/13%EC%9E%A5-%ED%8C%A8%ED%84%B4%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94-%ED%96%89%EB%B3%B5%ED%95%9C-%EC%82%B6)
+
+#### 14주차 Proxy & 기타 패턴
+- 발표자: 준규
+- 참석자: 널두, 동석
+- 발표자료 : [proxy 패턴](https://j-aykay.tistory.com/entry/%ED%94%84%EB%A1%9D%EC%8B%9C-%ED%8C%A8%ED%84%B4?category=893863), [기타 패턴] (https://j-aykay.tistory.com/entry/%EA%B8%B0%ED%83%80-%ED%8C%A8%ED%84%B4Head-First-%EA%B7%B8-%EB%A7%88%EC%A7%80%EB%A7%89-%EC%9E%A5?category=893863)
